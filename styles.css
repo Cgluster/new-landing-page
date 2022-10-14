@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Share Icons */
+
+.share-icons {
+    display: flex;
+    margin-left: 68%;
+}
+
+.social-icon {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+/* Results Container */
+
+.results-container {
+    display: flex;
+}
+
+.results-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.registration-form {
+    margin-left: 2rem;
+}
+
+.registration-form li {
+    list-style-type: none;
+}
+
+.input-btn {
+    margin-top: 6px;
+}
+
+/* Testimonials */
+
+.testimonial-header {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.testimonial-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+}
+
+.testimonial-container {
+    display: flex;
+}
+
+.testimonial-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* Author */
+
+.author-container {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.author-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.author-picture {
+    height: 400px;
+    width: 300px;
+}
+
+/* Footer */
+footer {
+    margin-top: 7rem;
+    text-align: center;
+}
